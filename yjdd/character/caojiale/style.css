@@ -1,0 +1,55 @@
+.red {
+    color: red;
+    font-weight: bold;
+  }
+  .lowred {
+    color: #f0070790;
+    font-weight: bold;
+  }
+  .blue {
+    color: blue;
+    font-weight: bold;
+  }
+  .a {
+    a:link {
+      text-decoration: none;
+      color: blue;
+    }
+    a:visited {
+      color: blue;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: blue;
+    }
+    a:active {
+      color: red;
+    }
+  }
+  .left {
+    margin-left: 0%;
+  }
+  .table {
+    background-color:#999999;
+    font-weight: bold;
+    border-radius: 30px;
+    width: auto;
+    max-width: 600px;
+  }
+  .boy {
+    border: 10px solid lightblue;
+  }
+  .girl {
+    border: 10px solid lightpink;
+  }  
+  body {
+    border: 10px solid #999999;
+    background-color: pink;
+    width: auto;
+    margin: auto;
+    padding: auto;
+  }
+  hr {
+    border: none;
+    border-top: 2px solid #999999;
+  }
