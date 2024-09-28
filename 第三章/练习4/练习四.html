@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人人网注册页面</title>
+</head>
+<body>
+<header>
+    <img src="image/renren_titile.gif" alt="">
+    <p>人人网，中国 最真实、最有效的社会平台，加入人人网，找回老朋友，结交新朋友。</p>
+</header>
+<section>
+    <br>
+    <p><label for="email">电子邮箱: </label><input type="email" name="useremail" id="email" value="student@bdqn.cn " readonly></p>
+    <p><label for="password">设置密码: </label><input type="password" name="setpass" id="password"></p>
+    <p>真实姓名: <input type="text" name="realname"></p>
+    <p>性别 <input type="radio" name="xb" checked/>男 <input type="radio" name="xb">女</p>
+    <p>
+        生日: 
+        <select name="year">
+            <option value="1991" selected="select">1991</option>
+        </select>
+        年
+        <select name="moon">
+            <option value="11" selected="select">11</option>
+        </select>
+        月
+        <select name="day">
+            <option value="30" selected="select">30</option>
+        </select>
+        日
+    </p>
+    <p><strong>为什么要填写我的生日？</strong></p>
+    <p>
+        我现在:
+        <select name="sf" disabled>
+            <option value="none" selected="select">请选择身份</option>
+            <option value="doctor">医生</option>
+            <option value="teacher">老师</option>
+        </select>
+        （非常重要）
+    </p>
+    <p><img src="image/renren_code.gif" alt="验证码"><a href="#">看不清换一张?</a></p>
+    <p><label for="yzm">验证码: </label><input type="text" name="yzm" id="yzm"></p>
+    <a href="#"><img src="image/renren.gif" alt="立即注册"></a>
+</section>
+</body>
+</html>
