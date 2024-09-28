@@ -1,0 +1,135 @@
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.lowred {
+  color: #f0070790;
+  font-weight: bold;
+}
+
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.a {
+  a:link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:visited {
+    color: blue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  a:active {
+    color: red;
+  }
+}
+
+.left {
+  margin-left: 0%;
+}
+
+.table {
+  background-color: #999999;
+  font-weight: bold;
+  border-radius: 30px;
+  width: auto;
+  max-width: 600px;
+}
+
+.boy {
+  border: 10px solid lightblue;
+}
+
+.girl {
+  border: 10px solid lightpink;
+}
+
+body {
+  border: 10px solid #999999;
+  background-color: pink;
+  width: auto;
+  margin: auto;
+  padding: auto;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #999999;
+}
+
+#backToTop {
+  position: fixed;
+  /* 使用绝对定位 */
+  bottom: 80px;
+  /* 距离底部20像素 */
+  right: 20px;
+  /* 距离右侧20像素 */
+  display: block;
+  /* 使链接以块级元素显示 */
+  padding: 10px;
+  /* 内边距 */
+  background-color: #f0f0f0;
+  /* 背景颜色 */
+  color: #333;
+  /* 文本颜色 */
+  text-decoration: none;
+  /* 去除下划线 */
+  border-radius: 5px;
+  /* 边框圆角 */
+}
+
+#back {
+  position: fixed;
+  /* 使用绝对定位 */
+  bottom: 20px;
+  /* 距离底部20像素 */
+  right: 20px;
+  /* 距离右侧20像素 */
+  display: block;
+  /* 使链接以块级元素显示 */
+  padding: 10px;
+  /* 内边距 */
+  background-color: #f0f0f0;
+  /* 背景颜色 */
+  color: #333;
+  /* 文本颜色 */
+  text-decoration: none;
+  /* 去除下划线 */
+  border-radius: 5px;
+  /* 边框圆角 */
+}
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 0.6em solid transparent; /* 使用em单位，与字体大小相关 */
+  border-right: 0.6em solid transparent;
+  border-bottom: 0.9em solid black; /* 可以通过调整这些值来微调箭头的大小 */
+  display: inline-block; /* 使箭头可以在文本行中显示 */
+  vertical-align: middle; /* 垂直居中箭头 */
+}
+header {
+  height: auto;
+  text-align: center;
+  line-height: auto;
+}
+.fade-in,li,table {
+  opacity: 0; /* 初始时元素是透明的 */
+  animation: fadeInAnimation 2s forwards; /* 应用动画，持续时间2秒，完成后保持最后一帧的状态 */
+}
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0; /* 动画开始时，元素是透明的 */
+  }
+  to {
+    opacity: 1; /* 动画结束时，元素完全不透明 */
+  }
+}
