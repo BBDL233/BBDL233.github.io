@@ -1,0 +1,142 @@
+.red {
+  color: red;
+  font-weight: bold;
+}
+.nonedecoration {
+  text-decoration: none;
+}
+.lowred {
+  color: #f0070790;
+  font-weight: bold;
+}
+
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.a {
+  a:link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:visited {
+    color: blue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  a:active {
+    color: red;
+  }
+}
+
+.left {
+  margin-left: 0%;
+}
+.boy {
+  border: 10px solid lightblue;
+}
+
+.girl {
+  border: 10px solid plum;
+}
+
+/* hr {
+  border: none;
+  border-top: 2px solid #999999;
+} */
+.table {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.table2 {
+  border: 2px dashed black;
+}
+.table-container {
+  position: relative;
+  width: 100%;
+  height: auto; 
+}
+#backToTop {
+  position: fixed; /* 使用绝对定位 */
+  bottom: 20px; /* 距离底部20像素 */
+  right: 20px; /* 距离右侧20像素 */
+  display: block; /* 使链接以块级元素显示 */
+  padding: 10px; /* 内边距 */
+  background-color: #f0f0f0; /* 背景颜色 */
+  color: #333; /* 文本颜色 */
+  text-decoration: none; /* 去除下划线 */
+  border-radius: 5px; /* 边框圆角 */
+}
+header {
+  height: auto;
+  text-align: center;
+  line-height: auto;
+}
+/* 加载动画 */
+.fade-in {
+  opacity: 0; /* 初始时元素是透明的 */
+  animation: fadeInAnimation 2s forwards; /* 应用动画，持续时间2秒，完成后保持最后一帧的状态 */
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0; /* 动画开始时，元素是透明的 */
+  }
+  to {
+    opacity: 1; /* 动画结束时，元素完全不透明 */
+  }
+}
+
+@font-face {
+  font-family: 'ChildFunSansDemo';
+  src: url('ChildFunSans-Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'ChildFunSansDemo', sans-serif;
+  border: 10px solid #999999;
+  width: auto;
+  margin: auto;
+  padding: auto;
+}
+header {
+  background-color: pink;
+}
+section {
+  background-color: pink;
+}
+header h1{
+  border-bottom: solid #999999 2px;
+  background-image: url(bg.png);
+  background-size: cover;
+  display: block;
+  margin: 0px;
+  height: 100px;
+  font-size: 40px;
+  top: 50%;
+}
+header div{
+  height: 10px;
+  background-color: pink;
+}
+footer div{
+  border-bottom: solid #999999 2px;
+  margin-bottom: 0px;
+  height: 10px;
+  background-color: pink;
+}
+footer {
+  background-color: #ffd7eb;
+}
+footer p{
+  margin: 0px;
+}
