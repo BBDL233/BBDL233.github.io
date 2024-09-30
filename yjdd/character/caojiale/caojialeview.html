@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>曹家乐</title>
+  <link href="minimal-table.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+  .table {
+    background-color: #999999;
+    font-weight: bold;
+    border-radius: 30px;
+    width: auto;
+    max-width: 600px;
+  }
+
+  .boy {
+    border: 10px solid lightblue;
+  }
+
+  .girl {
+    border: 10px solid lightpink;
+  }
+
+  .fade-in,
+  li,
+  table {
+    opacity: 0;
+    /* 初始时元素是透明的 */
+    animation: fadeInAnimation 2s forwards;
+    /* 应用动画，持续时间2秒，完成后保持最后一帧的状态 */
+  }
+
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      /* 动画开始时，元素是透明的 */
+    }
+
+    to {
+      opacity: 1;
+      /* 动画结束时，元素完全不透明 */
+    }
+  }
+</style>
+<section>
+  <!-- 开始 -->
+  <h3><strong><a title="声明: 以下内容均为Ta自愿公开的信息">曹家乐基本信息:</a></strong></h3>
+  <ul class="table boy a">
+    <li>个性签名: <span title="来自Ta的微信">你处于封闭的空间，上帝给你开了一下窗，却没告诉你是最高楼。</span></li>
+    <li>出生日期: <span title="Ta的出生日期">2009年6月21日</span></li>
+    <li>手机号码: <a href="tel:+8619124130118" title="给Ta打电话">19124130118</a></li>
+    <li>微信号码: <a href="photo/曹家乐微信号.jpg" target="_blank" title="查看微信个人二维码" class="blue">caojiale2009621</a></li>
+    <li>企鹅号码: <span title="Ta的QQ号">3674987414</span></li>
+    <li>常用邮箱: <a href="mailto:3674987414@qq.com" title="给Ta发邮寄">3674987414@qq.com</a></li>
+    <li>在校职位: <a href="#曹家乐认真写字">广播站广播员</a>、<a href="#曹家乐弹吉他">吉他社社员</a> 、羽毛球社社员</li>
+    <li>性&emsp;&emsp;格: 开朗、积极向上</li>
+    <li>爱&emsp;&emsp;好: <a href="#热血健身" title="点击查看雨中跑步视频">爱运动</a>、<a href="#偷看女生宿舍">偷看女生宿舍</a></li>
+  </ul>
+  <!-- 结束 -->
+</section>
+</body>
+</html>
