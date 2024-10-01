@@ -1,6 +1,18 @@
-if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-    window.location = "mobile-cpdd.html";
-}
+// 手机端跳转
+(function() {
+    // 首先检查当前页面的URL是否包含'cpdd.html'
+    if (window.location.href.includes('cpdd.html')) {
+        // 如果是cpdd.html页面，继续检测用户代理是否为移动设备
+        if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+            // 如果是移动设备，重定向到mobile-cpdd.html页面
+            window.location.href = "mobile-cpdd.html";
+        }
+    }
+    // 如果不是cpdd.html页面，则不执行任何重定向操作
+})();
+
+
+// 返回顶部按钮
 
 var header = document.querySelector('header');
 var backToTopButton = document.getElementById('backToTop');
